@@ -31,16 +31,15 @@ export default class GiftedAvatar extends React.Component {
       sumChars += userName.charCodeAt(i);
     }
 
-    // inspired by https://github.com/wbinnssmith/react-user-avatar
-    // colors from https://flatuicolors.com/
+    // Custom colors for Fortis Riders
     const colors = [
-      '#e67e22', // carrot
-      '#2ecc71', // emerald
-      '#3498db', // peter river
-      '#8e44ad', // wisteria
-      '#e74c3c', // alizarin
-      '#1abc9c', // turquoise
-      '#2c3e50', // midnight blue
+      '#617288',
+      '#ac444a',
+      '#217c6a',
+      '#99418a',
+      '#5b7b4b',
+      '#956791',
+      '#4C898F'
     ];
 
     this.avatarColor = colors[sumChars % colors.length];
